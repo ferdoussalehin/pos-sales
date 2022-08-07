@@ -89,8 +89,8 @@ class Sls
 
     public function generate_pdf($content, $name = 'download.pdf', $output_type = null, $footer = null, $margin_bottom = null, $header = null, $margin_top = null, $orientation = 'P')
     {
-        $this->load->library('tec_mpdf', '', 'pdf');
-        return $this->pdf->generate($content, $name, $output_type, $footer, $margin_bottom, $header, $margin_top, $orientation);
+        $this->load->library('tec_mpdf');
+        return $this->tec_mpdf->generate($content, $name, $output_type, $footer, $margin_bottom, $header, $margin_top, $orientation);
     }
 
     public function analyze_term($term)
@@ -171,5 +171,29 @@ class Sls
         }
         return "<img src='data:image/svg+xml;base64," . base64_encode($svgData) . "' alt='{$text}' class='qrimg' width='100' height='100' style='max-width:" . ($size * 40) . 'px;max-height:' . ($size * 40) . "px;'' />";
     }
+
+    public function paid_opts($paid_by = null, $purchase = false, $empty_opt = false)
+    {
+        $opts = '';
+        if ($empty_opt) {
+            $opts .= '<option value="">' . lang('select') . '</option>';
+        }
+        $opts .= '
+        <option value="cash"' . ($paid_by && $paid_by == 'cash' ? ' selected="selected"' : '') . '>' . lang('cash') . '</option>
+        <option value="Cheque"' . ($paid_by && $paid_by == 'Cheque' ? ' selected="selected"' : '') . '>' . lang('cheque') . '</option>
+        <option value="other"' . ($paid_by && $paid_by == 'other' ? ' selected="selected"' : '') . '>' . lang('other') . '</option>';
+        
+        return $opts;
+    }
+
+    public function base64url_encode($data, $pad = null)
+    {
+        $data = str_replace(['+', '/'], ['-', '_'], base64_encode($data));
+        if (!$pad) {
+            $data = rtrim($data, '=');
+        }
+        return $data;
+    }
+    
 
 }

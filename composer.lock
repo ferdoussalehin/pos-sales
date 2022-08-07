@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17d10a2b039afc9f928ededad2ec585c",
+    "content-hash": "aef25998f4880aab8bc60c54f2fa98fc",
     "packages": [
         {
             "name": "arutil/ar-php",
@@ -1842,6 +1842,59 @@
                 "source": "https://github.com/sabberworm/PHP-CSS-Parser/tree/8.4.0"
             },
             "time": "2021-12-11T13:40:54+00:00"
+        },
+        {
+            "name": "salla/zatca",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SallaApp/ZATCA.git",
+                "reference": "3c1f534acf16a06687102895b511ffe4f74a7af1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SallaApp/ZATCA/zipball/3c1f534acf16a06687102895b511ffe4f74a7af1",
+                "reference": "3c1f534acf16a06687102895b511ffe4f74a7af1",
+                "shasum": ""
+            },
+            "require": {
+                "chillerlan/php-qrcode": "^4.3 || ^3.4",
+                "ext-mbstring": "*",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Salla\\ZATCA\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Salla Team",
+                    "email": "support@salla.dev",
+                    "homepage": "https://salla.dev"
+                }
+            ],
+            "description": "A helper to generate the QR code and signed it for ZATCA e-invoicing",
+            "homepage": "https://github.com/salla/zatca",
+            "keywords": [
+                "ZATCA",
+                "e-invocing",
+                "qr-code",
+                "salla"
+            ],
+            "support": {
+                "issues": "https://github.com/salla/zatca/issues",
+                "source": "https://github.com/salla/zatca"
+            },
+            "time": "2021-12-21T20:11:41+00:00"
         },
         {
             "name": "setasign/fpdi",

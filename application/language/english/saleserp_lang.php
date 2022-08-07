@@ -238,3 +238,77 @@ $lang['cf_value2'] = 'Custom Field 2 Value ';
 $lang['custom_fileds'] = 'Custom fields for receipt '; 
 $lang['printing'] = 'Printing '; 
 $lang['update_settings'] = 'Update Settings '; 
+$lang['no_zero_required'] = 'Field cannot be empty.'; 
+$lang['no.'] = 'No.'; 
+$lang['description'] = 'Description'; 
+$lang['view_user'] = 'View User'; 
+$lang['delete_sale'] = 'Delete Sale'; 
+$lang['print'] = 'Print'; 
+$lang['close'] = 'Close'; 
+$lang['created_by'] = 'Created By'; 
+$lang['cash'] = 'Cash'; 
+$lang['received'] = 'Received'; 
+$lang['payment_reference'] = 'Payment Reference'; 
+$lang['order_discount'] = 'Order Discount'; 
+$lang['order_tax'] = 'Order Tax'; 
+$lang['tax'] = 'Tax'; 
+$lang['order_items'] = 'Order Items'; 
+$lang['shipping'] = 'Shipping'; 
+$lang['attachments'] = 'Attachments'; 
+$lang['sale_status'] = 'Sale Status'; 
+$lang['payment_term'] = 'Payment Term'; 
+$lang['payment_status'] = 'Payment Status'; 
+$lang['staff_note'] = 'Staff Note'; 
+$lang['sale_note'] = 'Sale Note'; 
+$lang['payment_term_tip'] = 'Please type the number of days (integer only)'; 
+
+/* Sales */
+$lang['select_above'] = 'Select Above'; 
+$lang['no_match_found'] = 'No match found'; 
+$lang['sale_status'] = 'Sale Status'; 
+$lang['completed'] = 'Completed'; 
+$lang['pending'] = 'Pending'; 
+$lang['due'] = 'Due'; 
+$lang['partial'] = 'Partial'; 
+$lang['close'] = 'Close'; 
+$lang['return_sale'] = 'Retrun Sale'; 
+$lang['sale_deleted'] = 'Sale Deleted'; 
+$lang['add_payment'] = 'Add Payment'; 
+$lang['paying_by'] = 'Paying By'; 
+$lang['cheque_no'] = 'Cheque No'; 
+$lang['cheque'] = 'Cheque'; 
+$lang['other'] = 'Other'; 
+$lang['note'] = 'Note'; 
+$lang['sale_detail'] = 'Sale Detail'; 
+$lang['pdf_download'] = 'Download PDF'; 
+$lang['view_payments'] = 'View Payments'; 
+$lang['view_payment'] = 'View Payments'; 
+$lang['document'] = 'Document'; 
+$lang['payment_reference_no'] = 'Payment Reference No'; 
+$lang['return_surcharge'] = 'Return Surcharge'; 
+$lang['payment_added'] = 'Payment Added'; 
+$lang['id_not_found'] = 'Id not found'; 
+$lang['return_quantity'] = 'Return Quantity'; 
+$lang['sale_x_action'] = 'Retrun Sale cannot deleted'; 
+$lang['sale_already_returned'] = 'Sales already returned.'; 
+$lang['return_tip'] = 'Please edit the return quantity below. You can remove the item or set the return quantity to zero if it is not being returned.'; 
+$lang['return_tip_barcode'] = 'Enter barcode or name of the product that you want to return.'; 
+
+/* Settings */
+$lang['item_addition'] = 'Cart Item Addition Method'; 
+$lang['add_new_item'] = 'Add New Item to cart'; 
+$lang['id_not_found'] = 'ID not found!'; 
+$lang['unit_deleted_successfully'] = 'Unit is deleted successfuly!'; 
+$lang['increase_quantity_if_item_exist'] = 'Increase item quantity, if it already exists in cart'; 
+
+
+/* Purchases */
+$lang['purchase_status'] = 'Purchase Status'; 
+$lang['purchase_detail'] = 'Purchase Detail'; 
+$lang['edit_purchase'] = 'Edit Purchase'; 
+$lang['unit_cost'] = 'Unit Cost'; 
+$lang['ref'] = 'Reference'; 
+$lang['status'] = 'Status'; 
+$lang['tax'] = 'Tax'; 
+
+
