@@ -26,7 +26,9 @@
         color: #000;
     }
 
-    
+    .body {
+        
+    }
 }
 </style>
 <div class="panel panel-default">
