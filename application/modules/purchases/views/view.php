@@ -25,6 +25,8 @@
         font-size: 22px;
         color: #000;
     }
+
+    
 }
 </style>
 <div class="panel panel-default">
