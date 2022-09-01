@@ -3,17 +3,6 @@
 # Learn more about .gitignore:
 #     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 
-# Compiled Java class files
-vendor
-
-user_guide
-application/modules/product
-application/modules/customer
-application/modules/sales
-application/modules/settings
-application/modules/supplier
-application/modules/dashboard
-
 # Node artifact files
 node_modules/
 dist/
@@ -59,3 +48,10 @@ Thumbs.db
 *.mov
 *.wmv
 
+application/cache/temp/
+vendor/
+user_guide/
+system/
+install/
+docs/
+application/logs/
